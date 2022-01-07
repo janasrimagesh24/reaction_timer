@@ -1,0 +1,35 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: chartreuse;
+  padding: 10px;
+}
+.container {
+  display: flex;
+  margin: 10px 50px 10px 50px;
+  justify-content: space-between;
+}
+#shape {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  border-radius: 50%;
+}
+/* h1{
+    text-transform: uppercase;
+    text-align: center;
+    height: 50px;
+    background-color: chartreuse;
+    padding-top:15px;
+}
+h3{
+    text-align: centerlive;
+} */
